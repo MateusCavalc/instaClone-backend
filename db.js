@@ -3,7 +3,7 @@ const fs = require('fs');
 const ObjectId = require('mongodb').ObjectId;
 
 // const url = 'mongodb://localhost:27017';
-const url = 'mongodb://mateus:a1b2c3d4@localhost:27017/admin';
+const url = 'mongodb://mfc-root:1q2w3e4r@localhost:27017/admin';
 
 const client = new MongoClient(url);
 

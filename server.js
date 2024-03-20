@@ -120,7 +120,7 @@ app.delete('/api/:id', async (req, res) => {
 
 });
 
-const port = 8080;
+const port = 4001;
 
 app.listen(port, () => {
     console.log(`Servidor ONLINE (Porta ${port})`)
